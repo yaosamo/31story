@@ -14,7 +14,11 @@ struct MoodscraperApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .ignoresSafeArea()
+                .background(.white)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .preferredColorScheme(.light)
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
