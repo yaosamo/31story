@@ -22,9 +22,8 @@
 		5D10B7322A075DF700A27058 /* DayRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRow.swift; sourceTree = "<group>"; };
 		5D10B7342A09421C00A27058 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		5D1CFD212A0C965E0001D589 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5D1CFD232A0C96800001D589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5D1CFD242A0C96A40001D589 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		5D61F74F2A060F120044894C /* Moodscraper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodscraper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D61F74F2A060F120044894C /* 31 Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31 Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61F7522A060F120044894C /* MoodscraperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodscraperApp.swift; sourceTree = "<group>"; };
 		5D61F7542A060F120044894C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D61F7562A060F130044894C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +66,7 @@
 		5D61F7502A060F120044894C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D61F74F2A060F120044894C /* Moodscraper.app */,
+				5D61F74F2A060F120044894C /* 31 Story.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,7 +74,6 @@
 		5D61F7512A060F120044894C /* Moodscraper */ = {
 			isa = PBXGroup;
 			children = (
-				5D1CFD232A0C96800001D589 /* Info.plist */,
 				5D61F7522A060F120044894C /* MoodscraperApp.swift */,
 				5D61F7542A060F120044894C /* ContentView.swift */,
 				5D10B7342A09421C00A27058 /* Calendar.swift */,
@@ -100,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D61F74E2A060F120044894C /* Moodscraper */ = {
+		5D61F74E2A060F120044894C /* 31 Story */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "Moodscraper" */;
+			buildConfigurationList = 5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Story" */;
 			buildPhases = (
 				5D61F74B2A060F120044894C /* Sources */,
 				5D61F74C2A060F120044894C /* Frameworks */,
@@ -112,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = Moodscraper;
+			name = "31 Story";
 			productName = Moodscraper;
-			productReference = 5D61F74F2A060F120044894C /* Moodscraper.app */;
+			productReference = 5D61F74F2A060F120044894C /* 31 Story.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D61F74E2A060F120044894C /* Moodscraper */,
+				5D61F74E2A060F120044894C /* 31 Story */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -283,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -308,6 +306,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moodscraper/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +337,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moodscraper/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "Moodscraper" */ = {
+		5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Story" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D61F7642A060F130044894C /* Debug */,
