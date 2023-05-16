@@ -1,6 +1,6 @@
-# Nothing / Ascetic writer
-Ascetic writing experience
-Free in App Store: https://apps.apple.com/us/app/nothing-ascetic-writer/id1604460952
+# 31 Stories — Track your mood
+Find out what events cause your mood to go down or up.
+Purchase in App Store:  
 
-https://user-images.githubusercontent.com/5090118/149266369-4f7a8c9d-0a8c-4f0f-a42e-9cefc99ce1bf.mov
 
+https://github.com/yaosamo/31story/assets/5090118/ab3bff55-e98e-40c6-ab3a-d22bbb5b27dc
