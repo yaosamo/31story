@@ -1,7 +1,7 @@
 ## Privacy Policy
-v1.0 / March 24, 2022.
+v1.0 / May 15, 2023.
 
-Chameleon / Audiobook Player is an application made to enjoy listening audiobooks.
+31 Stories — is an applicaiton to track mood and help to understand what caused mood to go down or up. 
 
 We do not collect any personal data.
 We do not use trackers of any kind.
