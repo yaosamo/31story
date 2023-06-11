@@ -23,7 +23,7 @@
 		5D10B7342A09421C00A27058 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		5D1CFD212A0C965E0001D589 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5D1CFD242A0C96A40001D589 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		5D61F74F2A060F120044894C /* 31 Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31 Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D61F74F2A060F120044894C /* 31 Stories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31 Stories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61F7522A060F120044894C /* MoodscraperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodscraperApp.swift; sourceTree = "<group>"; };
 		5D61F7542A060F120044894C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D61F7562A060F130044894C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		5D61F7502A060F120044894C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D61F74F2A060F120044894C /* 31 Story.app */,
+				5D61F74F2A060F120044894C /* 31 Stories.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D61F74E2A060F120044894C /* 31 Story */ = {
+		5D61F74E2A060F120044894C /* 31 Stories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Story" */;
+			buildConfigurationList = 5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Stories" */;
 			buildPhases = (
 				5D61F74B2A060F120044894C /* Sources */,
 				5D61F74C2A060F120044894C /* Frameworks */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = "31 Story";
+			name = "31 Stories";
 			productName = Moodscraper;
-			productReference = 5D61F74F2A060F120044894C /* 31 Story.app */;
+			productReference = 5D61F74F2A060F120044894C /* 31 Stories.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D61F74E2A060F120044894C /* 31 Story */,
+				5D61F74E2A060F120044894C /* 31 Stories */,
 			);
 		};
 /* End PBXProject section */
@@ -299,23 +299,26 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Moodscraper/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J57A4298A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moodscraper/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaosamo.Moodscraper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -330,23 +333,26 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Moodscraper/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J57A4298A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moodscraper/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaosamo.Moodscraper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -364,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Story" */ = {
+		5D61F7632A060F130044894C /* Build configuration list for PBXNativeTarget "31 Stories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D61F7642A060F130044894C /* Debug */,
